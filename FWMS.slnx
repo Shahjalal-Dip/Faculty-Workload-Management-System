@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="FWMS.Application/FWMS.Application.csproj" />
+  <Project Path="FWMS.Domain/FWMS.Domain.csproj" />
+  <Project Path="FWMS.Infrastructure/FWMS.Infrastructure.csproj" />
+  <Project Path="FWMS.Web/FWMS.Web.csproj" />
+</Solution>
