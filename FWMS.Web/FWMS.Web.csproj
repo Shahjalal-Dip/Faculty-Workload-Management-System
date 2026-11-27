@@ -6,4 +6,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.26.401" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FWMS.Application\FWMS.Application.csproj" />
+    <ProjectReference Include="..\FWMS.Domain\FWMS.Domain.csproj" />
+    <ProjectReference Include="..\FWMS.Infrastructure\FWMS.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
